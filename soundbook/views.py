@@ -13,7 +13,7 @@ def index(request):
 def resumeread(request):
     if request.method == "POST" :
         value = request.POST["honey"]
-        engine = pyttsx3.init('dummy')
+        engine = pyttsx3.init('sapi5')
         engine.say(value)
         engine.runAndWait()
         return redirect('/')
