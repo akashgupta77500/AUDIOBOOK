@@ -1,7 +1,7 @@
 
 from django.shortcuts import render,redirect
 import pyttsx3
-from text_to_speech import speak
+
 
 # Create your views here.
 
