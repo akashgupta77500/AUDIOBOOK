@@ -1,7 +1,7 @@
 
 from django.shortcuts import render,redirect
 import pyttsx3
-from espeakng import ESpeakNG
+
 
 # Create your views here.
 
